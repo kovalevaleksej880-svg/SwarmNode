@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Разрешение на работу с сетью (для связи с другими узлами) -->
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -9,9 +8,10 @@
         android:label="Swarm Node"
         android:icon="@android:drawable/sym_def_app_icon"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SwarmNode">
+        android:theme="@style/Theme.SwarmNode"
+        android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="@xml/network_security_config">
         
-        <!-- Главный экран нашего приложения -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
