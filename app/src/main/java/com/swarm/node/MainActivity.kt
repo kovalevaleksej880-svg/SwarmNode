@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
             settings.domStorageEnabled = true
             
             // Грузим наш локальный сервер. В будущем здесь будет IP другого узла Стаи!
-            loadUrl("http://127.0.0.1:5001") 
+            loadUrl("http://192.168.0.115:5001") 
         }
         
         setContentView(webView)
