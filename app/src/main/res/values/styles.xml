@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Настройки темы по умолчанию -->
+    </style>
+</resources>
